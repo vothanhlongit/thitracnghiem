@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+.maincontainer{
+	width: auto;	
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:-9px;
+	
+	/* background-image:url(../../data/images/background.jpg);*/
+}
+.top{
+	background-color: #F6F;
+	height: 58px;
+	/*width: 864px;*/
+	width: auto;		
+	text-align:center;
+	margin-top:-9px;
+	margin-left:-10px;
+	margin-right:-10px;
+}
+.top .logoleft {
+	float: left;
+	height: 122px;
+	width: 1001px;
+}
+.top .logoright {
+	float: right;
+	height: 122px;
+	width: 29px;
+}
+.middle{
+	background-color:#9C6 ;	
+	width: auto;	
+				
+}
+ a{
+
+text-decoration:none;
+color:#00F;
+
+
+}
+ .link{
+padding:5px;
+background-color:#FF6;
+}
+#khung_middle{
+	
+	margin-top:3px;
+	/*border-radius:20px;*/
+	/*border-top-left-radius:20px;
+    border-top-right-radius: 20px;*/
+	border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+	width:auto;
+	height:auto;
+	background:#FFF;
+	padding:20px;
+		 behavior: url(PIE.htc); /* fix IE*/     
+	-moz-box-shadow: inset 10px 9px 10px #ccc;
+-webkit-box-shadow: inset 0px 0px 14px #ccc;
+box-shadow: inset 0px 0px 14px #036803;
+}
+
+.footer{
+	background-color: #F6F;
+	height: 30px;
+	width: 100%;
+	margin-left:-10px;
+	margin-right:-10px;
+	position:absolute;
+    bottom:0px;  
+
+}

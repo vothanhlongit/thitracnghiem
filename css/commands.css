@@ -1,0 +1,694 @@
+@charset "utf-8";
+/* CSS Document */
+
+.command_add
+{
+	background-image: url('/img/add.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:20px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_add:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_add:active {
+	position:relative;
+	top:1px;
+}
+.command_save
+{
+	background-image: url('/img/save.gif');
+	color:#14396a;
+	font-family:arial;
+	font-size:25px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_save:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_save:active {
+	position:relative;
+	top:1px;
+}
+
+.command_del
+{
+	background-image: url('/img/delete.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:18px;
+	background-repeat: no-repeat;
+	padding-left: 30px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_del:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_del:active {
+	position:relative;
+	top:1px;
+}
+.command_edit
+{
+	background-image: url('/img/edit.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:20px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_edit:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_edit:active {
+	position:relative;
+	top:1px;
+}
+.command_print
+{
+	background-image: url('/img/printer.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_print:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_print:active {
+	position:relative;
+	top:1px;
+}
+
+.command_find
+{
+	background-image: url('/img/find.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_find:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_find:active {
+	position:relative;
+	top:1px;
+}
+.command_go
+{
+	background-image: url('/img/go.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#09C;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_go:hover {
+	background-color:#FF6;
+	cursor: pointer; 
+}
+
+.command_go:active {
+	position:relative;
+	top:1px;
+}
+.command_refresh
+{
+	background-image: url('/img/refresh.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_refresh:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_refresh:active {
+	position:relative;
+	top:1px;
+}
+.command_back
+{
+	background-image: url('/img/back.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_back:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_back:active {
+	position:relative;
+	top:1px;
+}
+.command_forward
+{
+	background-image: url('/img/forward.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_forward:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_forward:active {
+	position:relative;
+	top:1px;
+}
+
+
+.command_import
+{
+	background-image: url('/img/import.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:19px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_import:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_import:active {
+	position:relative;
+	top:1px;
+}
+.command_export
+{
+	background-image: url('/img/export.gif');
+	color:#14396a;
+	font-family:arial;
+	font-size:19px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_export:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_export:active {
+	position:relative;
+	top:1px;
+}
+
+.command_forward
+{
+	background-image: url('/img/forward.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_forward:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_forward:active {
+	position:relative;
+	top:1px;
+}
+
+
+.command_lock
+{
+	background-image: url('/img/lock.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_lock:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_lock:active {
+	position:relative;
+	top:1px;
+}
+.command_unlock
+{
+	background-image: url('/img/unlock.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_unlock:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_unlock:active {
+	position:relative;
+	top:1px;
+}
+.command_action
+{
+	background-image: url('/img/action.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_action:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_action:active {
+	position:relative;
+	top:1px;
+}
+.command_close
+{
+	background-image: url('/img/close.gif');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_close:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_close:active {
+	position:relative;
+	top:1px;
+}
+.command_finish
+{
+	background-image: url('/img/finish.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 40px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_finish:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_finish:active {
+	position:relative;
+	top:1px;
+}
+.command_doipass
+{
+	background-image: url('/img/password-recovery.gif');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 43px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_doipass:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_doipass:active {
+	position:relative;
+	top:1px;
+}
+.command_sub
+{
+	background-image: url('/img/tru.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 43px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_sub:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_sub:active {
+	position:relative;
+	top:1px;
+}
+
+.command_close
+{
+	background-image: url('/img/close.gif');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 43px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_close:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_close:active {
+	position:relative;
+	top:1px;
+}
+
+.command_bdpie
+{
+	background-image: url('/img/chartpie.png');
+	color:#14396a;
+	font-family:arial;
+	font-size:23px;
+	background-repeat: no-repeat;
+	padding-left: 43px;  /* width of the image plus a little extra padding */
+	display: block;  /* may not need this, but I've found I do */
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background-color:#ff9933;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;	
+	font-weight:bold;	
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.command_bdpie:hover {
+	background-color:#ffee33;
+	cursor: pointer; 
+}
+
+.command_bdpie:active {
+	position:relative;
+	top:1px;
+}

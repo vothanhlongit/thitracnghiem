@@ -1,0 +1,63 @@
+create database cmtest2;
+use cmtest2;
+create table loai(maloai varchar(30) primary key,tenloai text);
+create table monthi(mamon varchar(30) primary key,tenmon text);
+create table nhom(manhom varchar(30) primary key,tennhom text,mamon varchar(30));
+create table donvi(madonvi varchar(30) primary key,tendonvi text);
+
+
+create table nguoiquanly(tendangnhap varchar(30) primary key,matkhau varchar(30),hoten varchar(30),vaitro varchar(30));
+
+insert into nguoiquanly values('admin','123','admin123','quantri');
+
+insert into nguoiquanly values('GV001','123','Vo Minh Tri','giaovien');
+
+insert into nguoiquanly values('GT001','123','Vo Minh Tri_gt','giamthi');
+
+
+
+
+create table kythi(makythi varchar(30) primary key,tenkythi text,thoigian text,diadiem text);
+
+create table cauhoi(macau varchar(30) primary key,tieude text,mota longtext,maloai varchar(30),manhom varchar(30),absolute int(1));
+
+create table traloi_tn(matraloi_tn varchar(30) primary key,traloi text,dapan int(1),macau varchar(30));
+create table traloi_tl(matraloi_tl varchar(30) primary key,traloi text,macau varchar(30),kemfile int(1));
+create table traloi_ntn(matraloi_ntn varchar(30) primary key,noidung text,macau varchar(30),absolute int(1));
+create table traloi_ntn_sub(matraloi_ntn_sub varchar(30) primary key,traloi text,dapan int(1), matraloi_ntn varchar(30));
+
+create table ngach(mangach varchar(30) primary key,tenngach text);
+
+create table dethi(madethi varchar(30) primary key,tenkythi text,thoigian int,mangach varchar(30),mamon varchar(30),matmamode varchar(30),ghichu text,trangthai int(1),tongsocau int,thangdiem int,magv varchar(30) );
+
+create table cautrucde(macautrucde varchar(30) primary key,tencautruc text,madethi varchar(30),manhom varchar(30),socau tinyint,diemcautruc decimal(10,0));
+
+create table chitiet_cauhoi_cautruc(macautrucde varchar(30),macau varchar(30) );
+
+create table thisinh(mats varchar(30) primary key,hoten varchar(50),gioitinh varchar(20),ngaysinh varchar(10),quequan text,password varchar(20),madonvi varchar(30),makythi varchar(30),mangach varchar(30));
+
+create table baithithisinh(mabaithi varchar(30) primary key,mats varchar(30),madethi varchar(30),ngaythi date,giobd time,diembaithi decimal(10,3),trangthai varchar(2),xemdapan int(1));
+
+create table diem_cau(macau varchar(30),mabaithi varchar(30),diemcau decimal(10,3),primary key(macau,mabaithi));
+
+create table chitiet_baithi(macau varchar(30),mabaithi varchar(30),matraloi_tn varchar(30),traloi longtext,kemfile text,primary key(macau,mabaithi));
+
+create table bailam_ts_temp(macau varchar(30),mabaithi varchar(30),matraloi_tn varchar(30),traloi longtext,kemfile text,thoigiantraloi time,primary key(macau,mabaithi));
+
+
+
+
+--------------
+CREATE TRIGGER ngach_dethi_update 
+AFTER UPDATE ON ngach 
+FOR EACH ROW
+  UPDATE dethi SET mangach=new.mangach  where mangach= Old.mangach;
+
+CREATE TRIGGER donvi_thisinh_update
+AFTER UPDATE ON donvi
+FOR EACH ROW
+  UPDATE thisinh SET madonvi=new.madonvi where madonvi= Old.madonvi;
+
+------------------
+DROP TRIGGER ngach_dethi_update ;
+DROP TRIGGER donvi_thisinh_update;
